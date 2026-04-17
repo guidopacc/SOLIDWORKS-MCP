@@ -1,0 +1,63 @@
+﻿INPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\plane-top\plane-top-sequence.ndjson
+OUTPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\plane-top\plane-top-sequence.out.ndjson
+SUMMARY=C:\SolidWorksMcpValidation\plane-top\plane-top-summary.txt
+INSPECTION=C:\SolidWorksMcpValidation\plane-top\plane-top-inspection.json
+PASS state.selectedPlane == Top Plane
+PASS state.sketch-1.plane == Top Plane
+PASS select_plane operationDetails.planeFeatureName == Top Plane
+PASS select_plane operationDetails.selectionResolution present
+PASS saved plane-top part exists on disk
+PASS inspection found at least one profile feature
+PASS inspection active document path matches requested save path
+INPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\plane-right\plane-right-sequence.ndjson
+OUTPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\plane-right\plane-right-sequence.out.ndjson
+SUMMARY=C:\SolidWorksMcpValidation\plane-right\plane-right-summary.txt
+INSPECTION=C:\SolidWorksMcpValidation\plane-right\plane-right-inspection.json
+PASS state.selectedPlane == Right Plane
+PASS state.sketch-1.plane == Right Plane
+PASS select_plane operationDetails.planeFeatureName == Right Plane
+PASS select_plane operationDetails.selectionResolution present
+PASS saved plane-right part exists on disk
+PASS inspection found at least one profile feature
+PASS inspection active document path matches requested save path
+INPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\line2d\line2d-sequence.ndjson
+OUTPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\line2d\line2d-sequence.out.ndjson
+SUMMARY=C:\SolidWorksMcpValidation\line2d\line2d-summary.txt
+INSPECTION=C:\SolidWorksMcpValidation\line2d\line2d-inspection.json
+PASS state.sketch-1 contains one line entity
+PASS draw_line operationDetails.lengthMm ~= 30.0
+PASS draw_line operationDetails.constructionApplied == false
+PASS saved line2d part exists on disk
+PASS inspection found at least one profile feature
+PASS inspection feature tree contains Sketch1:ProfileFeature
+PASS inspection active document path matches line2d save path
+INPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\rect2d\rect2d-sequence.ndjson
+OUTPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\rect2d\rect2d-sequence.out.ndjson
+SUMMARY=C:\SolidWorksMcpValidation\rect2d\rect2d-summary.txt
+INSPECTION=C:\SolidWorksMcpValidation\rect2d\rect2d-inspection.json
+PASS state.sketch-1 contains one centered_rectangle entity
+PASS draw_centered_rectangle operationDetails.segmentCount >= 4
+PASS saved rect2d part exists on disk
+PASS inspection found at least one profile feature
+PASS inspection active document path matches rect2d save path
+INPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\rect3d\rect3d-sequence.ndjson
+OUTPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\rect3d\rect3d-sequence.out.ndjson
+SUMMARY=C:\SolidWorksMcpValidation\rect3d\rect3d-summary.txt
+INSPECTION=C:\SolidWorksMcpValidation\rect3d\rect3d-inspection.json
+PASS state.features contains one extrude_boss feature
+PASS draw_centered_rectangle operationDetails.segmentCount >= 4
+PASS saved rect3d part exists on disk
+PASS inspection found at least one extrusion feature
+PASS inspection active document path matches rect3d save path
+INPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\slice4\slice4-sequence.ndjson
+OUTPUT_TRANSCRIPT=C:\SolidWorksMcpValidation\slice4\slice4-sequence.out.ndjson
+SUMMARY=C:\SolidWorksMcpValidation\slice4\slice4-summary.txt
+INSPECTION=C:\SolidWorksMcpValidation\slice4\slice4-inspection.json
+PASS state.features contains one extrude_boss feature
+PASS state.exports contains the exported STEP artifact
+PASS export response includes exportMode
+PASS saved slice4 part exists on disk
+PASS STEP export exists on disk
+PASS inspection found at least one extrusion feature
+PASS inspection active document path matches saved part path
+RUN_MANIFEST=C:\SolidWorksMcpValidation\regression-runs\worker-regression-20260410-104605.json

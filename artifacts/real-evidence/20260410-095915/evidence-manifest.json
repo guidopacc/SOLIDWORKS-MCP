@@ -1,0 +1,74 @@
+﻿[
+    {
+        "scenario":  "plane-top",
+        "copied":  true,
+        "includeCadFiles":  false,
+        "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915\\plane-top",
+        "copiedFiles":  [
+                            "plane-top-summary.txt",
+                            "plane-top-inspection.json",
+                            "plane-top-sequence.ndjson",
+                            "plane-top-sequence.out.ndjson"
+                        ]
+    },
+    {
+        "scenario":  "plane-right",
+        "copied":  true,
+        "includeCadFiles":  false,
+        "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915\\plane-right",
+        "copiedFiles":  [
+                            "plane-right-summary.txt",
+                            "plane-right-inspection.json",
+                            "plane-right-sequence.ndjson",
+                            "plane-right-sequence.out.ndjson"
+                        ]
+    },
+    {
+        "scenario":  "line2d",
+        "copied":  true,
+        "includeCadFiles":  false,
+        "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915\\line2d",
+        "copiedFiles":  [
+                            "line2d-summary.txt",
+                            "line2d-inspection.json",
+                            "line2d-sequence.ndjson",
+                            "line2d-sequence.out.ndjson"
+                        ]
+    },
+    {
+        "scenario":  "rect2d",
+        "copied":  true,
+        "includeCadFiles":  false,
+        "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915\\rect2d",
+        "copiedFiles":  [
+                            "rect2d-summary.txt",
+                            "rect2d-inspection.json",
+                            "rect2d-sequence.ndjson",
+                            "rect2d-sequence.out.ndjson"
+                        ]
+    },
+    {
+        "scenario":  "rect3d",
+        "copied":  true,
+        "includeCadFiles":  false,
+        "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915\\rect3d",
+        "copiedFiles":  [
+                            "rect3d-summary.txt",
+                            "rect3d-inspection.json",
+                            "rect3d-sequence.ndjson",
+                            "rect3d-sequence.out.ndjson"
+                        ]
+    },
+    {
+        "scenario":  "slice4",
+        "copied":  true,
+        "includeCadFiles":  false,
+        "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915\\slice4",
+        "copiedFiles":  [
+                            "slice4-summary.txt",
+                            "slice4-inspection.json",
+                            "slice4-sequence.ndjson",
+                            "slice4-sequence.out.ndjson"
+                        ]
+    }
+]

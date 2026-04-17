@@ -1,0 +1,16 @@
+﻿generatedAt: 2026-04-10T14:33:22
+cycles: 3
+evidenceBundles: 7
+regressionRuns: 6
+handoffPacks: 2
+latestCycle: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\cycles\20260410-140501
+latestPassingCycle: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\cycles\20260410-140501
+latestStandardCycle: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\cycles\20260410-104556
+latestFullEvidenceCycle: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\cycles\20260410-140501
+latestEvidenceBundle: C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-141018
+latestPassingEvidenceBundle: C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-141018
+latestStandardEvidenceBundle: C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-140440
+latestFullEvidenceBundle: C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-141018
+latestRegressionRun: C:\SolidWorksMcpValidation\regression-runs\worker-regression-20260410-140512.json
+latestHandoffPack: C:\Tools\SOLIDWORKS-MCP\artifacts\handoff-packs\20260410-143035-latest-full
+indexPath: C:\Tools\SOLIDWORKS-MCP\artifacts\indexes\worker-artifact-index.json

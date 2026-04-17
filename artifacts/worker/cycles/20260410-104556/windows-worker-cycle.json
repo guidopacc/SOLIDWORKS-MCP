@@ -1,0 +1,43 @@
+﻿{
+    "schemaVersion":  "windows-worker-cycle-2026-04-10-v1",
+    "generatedAt":  "2026-04-10T10:50:59",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "validationRoot":  "C:\\SolidWorksMcpValidation",
+    "harnessProject":  "C:\\SolidWorksMcpValidation\\worker-e2e-harness\\worker-e2e-harness.csproj",
+    "cycleRoot":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104556",
+    "scenarios":  [
+                      "plane-top",
+                      "plane-right",
+                      "line2d",
+                      "rect2d",
+                      "rect3d",
+                      "slice4"
+                  ],
+    "includeCadFiles":  false,
+    "debugBuild":  {
+                       "skipped":  false,
+                       "workerExe":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker\\bin\\Debug\\net8.0-windows\\SolidWorksWorker.exe",
+                       "artifactPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\build\\Debug\\worker-build.json"
+                   },
+    "publish":  {
+                    "workerExe":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+                    "artifactPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\worker-publish.json"
+                },
+    "smoke":  {
+                  "inputPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104556\\worker-smoke.ndjson",
+                  "outputPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104556\\worker-smoke.out.ndjson",
+                  "handshakeSeen":  true,
+                  "shutdownSeen":  true
+              },
+    "regression":  {
+                       "stdoutPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104556\\worker-regression.stdout.txt",
+                       "runManifestPath":  "C:\\SolidWorksMcpValidation\\regression-runs\\worker-regression-20260410-104605.json"
+                   },
+    "evidenceBundle":  {
+                           "skipped":  false,
+                           "stdoutPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104556\\worker-evidence.stdout.txt",
+                           "bundlePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-105059",
+                           "manifestPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-105059\\evidence-manifest.json"
+                       },
+    "preflightJsonPath":  "C:\\SolidWorksMcpValidation\\preflight\\worker-preflight.json"
+}

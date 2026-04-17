@@ -1,0 +1,2 @@
+﻿EVIDENCE_BUNDLE=C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-104459
+EVIDENCE_MANIFEST=C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-104459\evidence-manifest.json

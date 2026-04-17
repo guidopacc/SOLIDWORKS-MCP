@@ -1,0 +1,233 @@
+﻿{
+  "schemaVersion": "inspection-2026-04-10-v2",
+  "scenario": "plane-top",
+  "workerExe": "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+  "protocolVersion": "0.1.0",
+  "desiredSolidWorksMajorVersion": 2022,
+  "inspectionMode": "reopened_saved_part",
+  "runStartedAtUtc": "2026-04-10T08:46:06.7335178\u002B00:00",
+  "runCompletedAtUtc": "2026-04-10T08:46:57.5315454\u002B00:00",
+  "durationMs": 50798,
+  "inputTranscriptPath": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-sequence.ndjson",
+  "outputTranscriptPath": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-sequence.out.ndjson",
+  "summaryPath": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-summary.txt",
+  "savePath": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-part.SLDPRT",
+  "saveExists": true,
+  "saveSizeBytes": 44180,
+  "exportPath": null,
+  "exportExists": false,
+  "exportSizeBytes": 0,
+  "workerExitCode": 0,
+  "workerStdErr": null,
+  "lastExecuteOk": true,
+  "lastExecuteErrorCode": null,
+  "lastExecuteErrorClassification": null,
+  "lastExecuteErrorStage": null,
+  "currentDocumentTitle": "plane-top-part.SLDPRT",
+  "currentDocumentPath": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-part.SLDPRT",
+  "currentDocumentModified": false,
+  "profileFeatureCount": 1,
+  "profileFeatures": [
+    "Sketch1"
+  ],
+  "extrusionFeatureCount": 0,
+  "extrusionFeatures": [],
+  "sketchSegmentCount": null,
+  "featureTreeCount": 18,
+  "featureTree": [
+    "Favoris:FavoriteFolder",
+    "History:HistoryFolder",
+    "Ensembles de s\u00E9lections:SelectionSetFolder",
+    "Sensors:SensorFolder",
+    "Allegati:DocsFolder",
+    "Annotations:DetailCabinet",
+    "Marquages:InkMarkupFolder",
+    "Lumi\u00E8res, cam\u00E9ras et sc\u00E8ne:EnvFolder",
+    "Corps volumiques:SolidBodyFolder",
+    "Corps surfaciques:SurfaceBodyFolder",
+    "Commentaires:CommentsFolder",
+    "Equations:EqnFolder",
+    "Materiale \u003Cnon specificato\u003E:MaterialFolder",
+    "Front Plane:RefPlane",
+    "Top Plane:RefPlane",
+    "Right Plane:RefPlane",
+    "Origin:OriginProfileFeature",
+    "Sketch1:ProfileFeature"
+  ],
+  "assertionPassCount": 7,
+  "assertionFailCount": 0,
+  "scenarioPassed": true,
+  "assertions": [
+    "PASS state.selectedPlane == Top Plane",
+    "PASS state.sketch-1.plane == Top Plane",
+    "PASS select_plane operationDetails.planeFeatureName == Top Plane",
+    "PASS select_plane operationDetails.selectionResolution present",
+    "PASS saved plane-top part exists on disk",
+    "PASS inspection found at least one profile feature",
+    "PASS inspection active document path matches requested save path"
+  ],
+  "artifacts": {
+    "inputTranscript": {
+      "path": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-sequence.ndjson",
+      "exists": true,
+      "sizeBytes": 3362,
+      "extension": ".ndjson",
+      "lineCount": 8
+    },
+    "outputTranscript": {
+      "path": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-sequence.out.ndjson",
+      "exists": true,
+      "sizeBytes": 9840,
+      "extension": ".ndjson",
+      "lineCount": 8
+    },
+    "summary": {
+      "path": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-summary.txt",
+      "exists": true,
+      "sizeBytes": 3956,
+      "extension": ".txt",
+      "lineCount": null
+    },
+    "inspection": {
+      "path": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-inspection.json",
+      "exists": true,
+      "sizeBytes": 8058,
+      "extension": ".json",
+      "lineCount": null
+    },
+    "saveDocument": {
+      "path": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-part.SLDPRT",
+      "exists": true,
+      "sizeBytes": 44180,
+      "extension": ".SLDPRT",
+      "lineCount": null
+    },
+    "exportFile": {
+      "path": null,
+      "exists": false,
+      "sizeBytes": 0,
+      "extension": null,
+      "lineCount": null
+    }
+  },
+  "outcome": {
+    "workerExitCode": 0,
+    "workerStdErr": null,
+    "lastExecuteOk": true,
+    "lastExecuteErrorCode": null,
+    "lastExecuteErrorClassification": null,
+    "lastExecuteErrorStage": null,
+    "lastExecuteErrorMessage": null,
+    "requestedCommandCount": 6,
+    "completedCommandCount": 6,
+    "completedCommandKinds": [
+      "new_part",
+      "select_plane",
+      "start_sketch",
+      "draw_circle",
+      "close_sketch",
+      "save_part"
+    ],
+    "scenarioPassed": true
+  },
+  "reopenedDocument": {
+    "title": "plane-top-part.SLDPRT",
+    "path": "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-part.SLDPRT",
+    "modified": false
+  },
+  "featureReadback": {
+    "profileFeatureCount": 1,
+    "profileFeatures": [
+      "Sketch1"
+    ],
+    "extrusionFeatureCount": 0,
+    "extrusionFeatures": [],
+    "sketchSegmentCount": null,
+    "featureTreeCount": 18,
+    "featureTypeCounts": {
+      "CommentsFolder": 1,
+      "DetailCabinet": 1,
+      "DocsFolder": 1,
+      "EnvFolder": 1,
+      "EqnFolder": 1,
+      "FavoriteFolder": 1,
+      "HistoryFolder": 1,
+      "InkMarkupFolder": 1,
+      "MaterialFolder": 1,
+      "OriginProfileFeature": 1,
+      "ProfileFeature": 1,
+      "RefPlane": 3,
+      "SelectionSetFolder": 1,
+      "SensorFolder": 1,
+      "SolidBodyFolder": 1,
+      "SurfaceBodyFolder": 1
+    },
+    "referencePlanes": [
+      "Front Plane",
+      "Top Plane",
+      "Right Plane"
+    ],
+    "featureTree": [
+      "Favoris:FavoriteFolder",
+      "History:HistoryFolder",
+      "Ensembles de s\u00E9lections:SelectionSetFolder",
+      "Sensors:SensorFolder",
+      "Allegati:DocsFolder",
+      "Annotations:DetailCabinet",
+      "Marquages:InkMarkupFolder",
+      "Lumi\u00E8res, cam\u00E9ras et sc\u00E8ne:EnvFolder",
+      "Corps volumiques:SolidBodyFolder",
+      "Corps surfaciques:SurfaceBodyFolder",
+      "Commentaires:CommentsFolder",
+      "Equations:EqnFolder",
+      "Materiale \u003Cnon specificato\u003E:MaterialFolder",
+      "Front Plane:RefPlane",
+      "Top Plane:RefPlane",
+      "Right Plane:RefPlane",
+      "Origin:OriginProfileFeature",
+      "Sketch1:ProfileFeature"
+    ]
+  },
+  "assertionSummary": {
+    "passCount": 7,
+    "failCount": 0,
+    "otherCount": 0,
+    "passed": [
+      "PASS state.selectedPlane == Top Plane",
+      "PASS state.sketch-1.plane == Top Plane",
+      "PASS select_plane operationDetails.planeFeatureName == Top Plane",
+      "PASS select_plane operationDetails.selectionResolution present",
+      "PASS saved plane-top part exists on disk",
+      "PASS inspection found at least one profile feature",
+      "PASS inspection active document path matches requested save path"
+    ],
+    "failed": [],
+    "other": []
+  },
+  "evidence": {
+    "strong": [
+      "all scenario assertions passed",
+      "saved part exists on disk: C:\\SolidWorksMcpValidation\\plane-top\\plane-top-part.SLDPRT",
+      "feature-tree readback found profile feature(s): Sketch1",
+      "reopened active document path matches the saved part path"
+    ],
+    "supporting": [
+      "worker exited with code 0",
+      "feature tree captured with 18 entries",
+      "reference planes present in feature tree: Front Plane, Top Plane, Right Plane",
+      "feature type summary available: CommentsFolder=1 | DetailCabinet=1 | DocsFolder=1 | EnvFolder=1 | EqnFolder=1 | FavoriteFolder=1 | HistoryFolder=1 | InkMarkupFolder=1 | MaterialFolder=1 | OriginProfileFeature=1 | ProfileFeature=1 | RefPlane=3 | SelectionSetFolder=1 | SensorFolder=1 | SolidBodyFolder=1 | SurfaceBodyFolder=1"
+    ],
+    "weak": [],
+    "cautions": [
+      "sketch segment count unavailable; saved/exported files and feature-tree readback remain stronger evidence"
+    ]
+  },
+  "cleanup": {
+    "attempted": true,
+    "closedScenarioDocument": false,
+    "closedDocumentTitle": null,
+    "exitedApplication": true,
+    "remainingActiveDocumentTitle": null,
+    "remainingActiveDocumentPath": null
+  }
+}

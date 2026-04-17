@@ -1,0 +1,10 @@
+﻿{
+    "generatedAt":  "2026-04-10T14:05:08",
+    "configuration":  "Debug",
+    "workerProject":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker\\SolidWorksWorker.csproj",
+    "workerTestsProject":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker.Tests\\SolidWorksWorker.Tests.csproj",
+    "workerExe":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker\\bin\\Debug\\net8.0-windows\\SolidWorksWorker.exe",
+    "workerExeExists":  true,
+    "testsExecuted":  true,
+    "testsPassed":  true
+}

@@ -1,0 +1,121 @@
+﻿{
+    "schemaVersion":  "handoff-evidence-pack-2026-04-10-v1",
+    "generatedAt":  "2026-04-10T14:30:35",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "handoffPackPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full",
+    "sourceEvidenceBundlePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-141018",
+    "sourceEvidenceManifestPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-141018\\evidence-manifest.json",
+    "sourceBundleMode":  "full_with_cad_files",
+    "includeCadFiles":  true,
+    "sourceCycleManifestPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-140501\\windows-worker-cycle.json",
+    "sourceRegressionManifestPath":  "C:\\SolidWorksMcpValidation\\regression-runs\\worker-regression-20260410-140512.json",
+    "scenarioCount":  6,
+    "copiedScenarioCount":  6,
+    "copiedCycleFileCount":  3,
+    "copiedEvidenceFileCount":  2,
+    "copiedExtraFileCount":  7,
+    "contents":  {
+                     "cycleFiles":  [
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\cycle\\windows-worker-cycle.json",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\cycle\\windows-worker-cycle-summary.txt",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\cycle\\worker-regression-20260410-140512.json"
+                                    ],
+                     "evidenceFiles":  [
+                                           "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\evidence\\evidence-manifest.json",
+                                           "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\evidence\\evidence-summary.txt"
+                                       ],
+                     "scenarioEntries":  [
+                                             {
+                                                 "scenario":  "plane-top",
+                                                 "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-top",
+                                                 "copiedFileCount":  5,
+                                                 "copiedFiles":  [
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-top\\plane-top-inspection.json",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-top\\plane-top-part.SLDPRT",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-top\\plane-top-sequence.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-top\\plane-top-sequence.out.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-top\\plane-top-summary.txt"
+                                                                 ]
+                                             },
+                                             {
+                                                 "scenario":  "plane-right",
+                                                 "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-right",
+                                                 "copiedFileCount":  5,
+                                                 "copiedFiles":  [
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-right\\plane-right-inspection.json",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-right\\plane-right-part.SLDPRT",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-right\\plane-right-sequence.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-right\\plane-right-sequence.out.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\plane-right\\plane-right-summary.txt"
+                                                                 ]
+                                             },
+                                             {
+                                                 "scenario":  "line2d",
+                                                 "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\line2d",
+                                                 "copiedFileCount":  5,
+                                                 "copiedFiles":  [
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\line2d\\line2d-inspection.json",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\line2d\\line2d-part.SLDPRT",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\line2d\\line2d-sequence.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\line2d\\line2d-sequence.out.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\line2d\\line2d-summary.txt"
+                                                                 ]
+                                             },
+                                             {
+                                                 "scenario":  "rect2d",
+                                                 "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect2d",
+                                                 "copiedFileCount":  5,
+                                                 "copiedFiles":  [
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect2d\\rect2d-inspection.json",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect2d\\rect2d-part.SLDPRT",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect2d\\rect2d-sequence.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect2d\\rect2d-sequence.out.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect2d\\rect2d-summary.txt"
+                                                                 ]
+                                             },
+                                             {
+                                                 "scenario":  "rect3d",
+                                                 "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect3d",
+                                                 "copiedFileCount":  5,
+                                                 "copiedFiles":  [
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect3d\\rect3d-inspection.json",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect3d\\rect3d-part.SLDPRT",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect3d\\rect3d-sequence.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect3d\\rect3d-sequence.out.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\rect3d\\rect3d-summary.txt"
+                                                                 ]
+                                             },
+                                             {
+                                                 "scenario":  "slice4",
+                                                 "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4",
+                                                 "copiedFileCount":  6,
+                                                 "copiedFiles":  [
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4\\slice4-export.step",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4\\slice4-inspection.json",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4\\slice4-part.SLDPRT",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4\\slice4-sequence.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4\\slice4-sequence.out.ndjson",
+                                                                     "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\scenarios\\slice4\\slice4-summary.txt"
+                                                                 ]
+                                             }
+                                         ],
+                     "extraFiles":  [
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-build.json",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-preflight.json",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-publish.json",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-regression.stdout.txt",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-regression-20260410-140512.json",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-smoke.ndjson",
+                                        "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-143035-latest-full\\extras\\worker-smoke.out.ndjson"
+                                    ]
+                 },
+    "recommendedReviewOrder":  [
+                                   "handoff-summary.txt",
+                                   "cycle\\\\windows-worker-cycle-summary.txt",
+                                   "cycle\\\\worker-regression-*.json",
+                                   "evidence\\\\evidence-summary.txt",
+                                   "evidence\\\\evidence-manifest.json",
+                                   "scenarios\\\\\u003cscenario\u003e\\\\\u003cscenario\u003e-summary.txt",
+                                   "scenarios\\\\\u003cscenario\u003e\\\\\u003cscenario\u003e-inspection.json"
+                               ]
+}

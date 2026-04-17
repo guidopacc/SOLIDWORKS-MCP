@@ -1,0 +1,12 @@
+﻿{
+    "generatedAt":  "2026-04-10T10:46:04",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "workerProject":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker\\SolidWorksWorker.csproj",
+    "configuration":  "Release",
+    "runtime":  "win-x64",
+    "publishMode":  "framework-dependent",
+    "publishSingleFile":  false,
+    "publishDirectory":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release",
+    "publishExe":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+    "publishExeExists":  true
+}

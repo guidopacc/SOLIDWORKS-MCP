@@ -1,0 +1,114 @@
+﻿{
+    "generatedAt":  "2026-04-10T14:05:03",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "validationRoot":  "C:\\SolidWorksMcpValidation",
+    "workerConfiguration":  "Debug",
+    "hasFailures":  false,
+    "checks":  [
+                   {
+                       "name":  "Project root",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP"
+                   },
+                   {
+                       "name":  "Worker project",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker\\SolidWorksWorker.csproj"
+                   },
+                   {
+                       "name":  "Worker tests project",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker.Tests\\SolidWorksWorker.Tests.csproj"
+                   },
+                   {
+                       "name":  "Worker build script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\build-solidworks-worker.ps1"
+                   },
+                   {
+                       "name":  "Worker publish script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\publish-solidworks-worker.ps1"
+                   },
+                   {
+                       "name":  "Worker run script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\run-solidworks-worker.ps1"
+                   },
+                   {
+                       "name":  "Worker cycle script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\run-windows-worker-cycle.ps1"
+                   },
+                   {
+                       "name":  "Real regression script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\run-real-worker-regression.ps1"
+                   },
+                   {
+                       "name":  "Export regression script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\run-real-export-regression.ps1"
+                   },
+                   {
+                       "name":  "Evidence collection script",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\scripts\\collect-real-worker-evidence.ps1"
+                   },
+                   {
+                       "name":  "Harness project",
+                       "status":  "PASS",
+                       "details":  "C:\\SolidWorksMcpValidation\\worker-e2e-harness\\worker-e2e-harness.csproj"
+                   },
+                   {
+                       "name":  ".NET SDK",
+                       "status":  "PASS",
+                       "details":  "8.0.419"
+                   },
+                   {
+                       "name":  "node",
+                       "status":  "PASS",
+                       "details":  "v20.18.0"
+                   },
+                   {
+                       "name":  "npm",
+                       "status":  "PASS",
+                       "details":  "10.8.2"
+                   },
+                   {
+                       "name":  "SolidWorks ProgID",
+                       "status":  "PASS",
+                       "details":  "Registry::HKEY_CLASSES_ROOT\\SldWorks.Application"
+                   },
+                   {
+                       "name":  "SolidWorks executable",
+                       "status":  "PASS",
+                       "details":  "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\sldworks.exe"
+                   },
+                   {
+                       "name":  "SolidWorks current version",
+                       "status":  "PASS",
+                       "details":  "productName=SOLIDWORKS 2022; productVersion=30.4.0.0045"
+                   },
+                   {
+                       "name":  "Validation root",
+                       "status":  "PASS",
+                       "details":  "C:\\SolidWorksMcpValidation"
+                   },
+                   {
+                       "name":  "Validation root writable",
+                       "status":  "PASS",
+                       "details":  "C:\\SolidWorksMcpValidation"
+                   },
+                   {
+                       "name":  "Worker debug executable",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\adapters\\solidworks\\dotnet\\SolidWorksWorker\\bin\\Debug\\net8.0-windows\\SolidWorksWorker.exe"
+                   },
+                   {
+                       "name":  "Worker published executable",
+                       "status":  "PASS",
+                       "details":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe"
+                   }
+               ]
+}

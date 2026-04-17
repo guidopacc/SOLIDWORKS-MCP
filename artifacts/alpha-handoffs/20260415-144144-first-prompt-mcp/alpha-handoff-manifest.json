@@ -1,0 +1,170 @@
+﻿{
+    "schemaVersion":  "alpha-handoff-2026-04-15-v1",
+    "generatedAt":  "2026-04-15T14:41:44",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "alphaHandoffPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp",
+    "intent":  "repo-first technical alpha handoff companion",
+    "classification":  {
+                           "publicAlphaSupported":  true,
+                           "repoFirstDistributable":  true,
+                           "secondMachineValidated":  true,
+                           "handoffReady":  true,
+                           "receiverValidated":  true,
+                           "installerGrade":  false
+                       },
+    "repoRequired":  true,
+    "publicAlphaToolCount":  13,
+    "publicAlphaPromptCount":  1,
+    "copiedCoreFileCount":  15,
+    "copiedConfigFileCount":  5,
+    "missingCoreFileCount":  0,
+    "publishedWorkerIncluded":  true,
+    "publishedWorkerSourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+    "publishedWorkerFileCount":  2,
+    "evidencePackIncluded":  false,
+    "evidencePackSourcePath":  null,
+    "evidencePackCopiedPath":  null,
+    "evidencePackSchemaVersion":  null,
+    "receiverWorkingModel":  {
+                                 "repoRequired":  true,
+                                 "repoRole":  "working root for scripts, builds, and server entrypoint",
+                                 "companionPackageRole":  "orientation, curated docs, config discovery, and optional included worker handoff",
+                                 "includedWorkerShortcut":  "optional: point SOLIDWORKS_WORKER_COMMAND to the package-local worker copy"
+                             },
+    "contents":  {
+                     "coreFiles":  [
+                                       {
+                                           "relativePath":  "README.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\README.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\README.md"
+                                       },
+                                       {
+                                           "relativePath":  "PROJECT_HANDOFF.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\PROJECT_HANDOFF.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\PROJECT_HANDOFF.md"
+                                       },
+                                       {
+                                           "relativePath":  "LICENSE",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\LICENSE",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\LICENSE"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\getting-started\\QUICKSTART_ALPHA.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\getting-started\\QUICKSTART_ALPHA.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\getting-started\\QUICKSTART_ALPHA.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\ALPHA_DISTRIBUTION_PLAN.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\ALPHA_DISTRIBUTION_PLAN.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\ALPHA_DISTRIBUTION_PLAN.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\ALPHA_DELIVERY_MODEL.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\ALPHA_DELIVERY_MODEL.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\ALPHA_DELIVERY_MODEL.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\ALPHA_PACKAGE_CONTENTS.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\ALPHA_PACKAGE_CONTENTS.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\ALPHA_PACKAGE_CONTENTS.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\FIRST_ALPHA_HANDOFF_GUIDE.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\FIRST_ALPHA_HANDOFF_GUIDE.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\FIRST_ALPHA_HANDOFF_GUIDE.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\FIRST_HANDOFF_GUIDE.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\FIRST_HANDOFF_GUIDE.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\FIRST_HANDOFF_GUIDE.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\FIRST_PROMPT_MCP.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\FIRST_PROMPT_MCP.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\FIRST_PROMPT_MCP.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\MCP_CLIENT_SETUP.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\MCP_CLIENT_SETUP.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\MCP_CLIENT_SETUP.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\PUBLIC_ALPHA_BOUNDARY.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\PUBLIC_ALPHA_BOUNDARY.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\PUBLIC_ALPHA_BOUNDARY.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\SECOND_MACHINE_VALIDATION.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\SECOND_MACHINE_VALIDATION.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\SECOND_MACHINE_VALIDATION.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\SECOND_MACHINE_VALIDATION_REPORT.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\SECOND_MACHINE_VALIDATION_REPORT.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\SECOND_MACHINE_VALIDATION_REPORT.md"
+                                       },
+                                       {
+                                           "relativePath":  "docs\\architecture\\WINDOWS_EXECUTION_RUNBOOK.md",
+                                           "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\docs\\architecture\\WINDOWS_EXECUTION_RUNBOOK.md",
+                                           "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\docs\\architecture\\WINDOWS_EXECUTION_RUNBOOK.md"
+                                       }
+                                   ],
+                     "configFiles":  [
+                                         {
+                                             "relativePath":  "configs\\examples\\AGENTS.public-alpha-snippet.md",
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\configs\\examples\\AGENTS.public-alpha-snippet.md",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\configs\\examples\\AGENTS.public-alpha-snippet.md"
+                                         },
+                                         {
+                                             "relativePath":  "configs\\examples\\claude-code.project.public-alpha.mcp.json",
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\configs\\examples\\claude-code.project.public-alpha.mcp.json",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\configs\\examples\\claude-code.project.public-alpha.mcp.json"
+                                         },
+                                         {
+                                             "relativePath":  "configs\\examples\\claude-desktop.public-alpha.json",
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\configs\\examples\\claude-desktop.public-alpha.json",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\configs\\examples\\claude-desktop.public-alpha.json"
+                                         },
+                                         {
+                                             "relativePath":  "configs\\examples\\codex.public-alpha.config.toml",
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\configs\\examples\\codex.public-alpha.config.toml",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\configs\\examples\\codex.public-alpha.config.toml"
+                                         },
+                                         {
+                                             "relativePath":  "configs\\examples\\README.md",
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\configs\\examples\\README.md",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\configs\\examples\\README.md"
+                                         }
+                                     ],
+                     "workerFiles":  [
+                                         {
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\worker\\SolidWorksWorker.exe"
+                                         },
+                                         {
+                                             "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\worker-publish.json",
+                                             "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\alpha-handoffs\\20260415-144144-first-prompt-mcp\\worker\\worker-publish.json"
+                                         }
+                                     ],
+                     "missingCoreFiles":  [
+
+                                          ]
+                 },
+    "notIncludedByDesign":  [
+                                "repository source code replacement",
+                                "node_modules",
+                                "full artifact history",
+                                "installer wrappers",
+                                "desktop extension packaging"
+                            ],
+    "recommendedReadOrder":  [
+                                 "README.md",
+                                 "PROJECT_HANDOFF.md",
+                                 "docs\\\\architecture\\\\ALPHA_DELIVERY_MODEL.md",
+                                 "docs\\\\architecture\\\\FIRST_ALPHA_HANDOFF_GUIDE.md",
+                                 "docs\\\\getting-started\\\\QUICKSTART_ALPHA.md",
+                                 "docs\\\\architecture\\\\MCP_CLIENT_SETUP.md",
+                                 "docs\\\\architecture\\\\PUBLIC_ALPHA_BOUNDARY.md",
+                                 "docs\\\\architecture\\\\FIRST_PROMPT_MCP.md"
+                             ]
+}

@@ -1,0 +1,49 @@
+﻿scenario=plane-top
+workerExe=C:\Tools\SOLIDWORKS-MCP\artifacts\worker\publish\framework-dependent\win-x64\Release\SolidWorksWorker.exe
+protocolVersion=0.1.0
+desiredSolidWorksMajorVersion=2022
+initialAppMode=no_running_app
+initialProcessCount=0
+preExistingSessionSource=none
+initialActiveDocumentTitle=<null>
+initialActiveDocumentPath=<null>
+workerExitCode=0
+workerStdErr=<empty>
+lastExecuteOk=true
+lastExecuteErrorCode=<null>
+lastExecuteErrorClassification=<null>
+lastExecuteErrorStage=<null>
+lastExecuteErrorMessage=<null>
+inspectionArtifactPath=C:\SolidWorksMcpValidation\plane-top\plane-top-inspection.json
+activeDocumentTitle=plane-top-part.SLDPRT
+activeDocumentPath=C:\SolidWorksMcpValidation\plane-top\plane-top-part.SLDPRT
+activeDocumentModified=False
+profileFeatureCount=1
+profileFeatures=Sketch1
+extrusionFeatureCount=0
+extrusionFeatures=
+sketchSegmentCount=<null>
+featureTreeCount=18
+savePath=C:\SolidWorksMcpValidation\plane-top\plane-top-part.SLDPRT
+saveExists=True
+saveSizeBytes=45044
+exportPath=<null>
+exportExists=False
+exportSizeBytes=0
+cleanupAttempted=True
+cleanupClosedScenarioDocument=False
+cleanupClosedDocumentTitle=<null>
+cleanupExitedApplication=True
+cleanupRemainingActiveDocumentTitle=<null>
+cleanupRemainingActiveDocumentPath=<null>
+assertionPassCount=7
+assertionFailCount=0
+scenarioPassed=True
+featureTree=Favoris:FavoriteFolder | History:HistoryFolder | Ensembles de sélections:SelectionSetFolder | Sensors:SensorFolder | Allegati:DocsFolder | Annotations:DetailCabinet | Marquages:InkMarkupFolder | Lumières, caméras et scène:EnvFolder | Corps volumiques:SolidBodyFolder | Corps surfaciques:SurfaceBodyFolder | Commentaires:CommentsFolder | Equations:EqnFolder | Materiale <non specificato>:MaterialFolder | Front Plane:RefPlane | Top Plane:RefPlane | Right Plane:RefPlane | Origin:OriginProfileFeature | Sketch1:ProfileFeature
+PASS state.selectedPlane == Top Plane
+PASS state.sketch-1.plane == Top Plane
+PASS select_plane operationDetails.planeFeatureName == Top Plane
+PASS select_plane operationDetails.selectionResolution present
+PASS saved plane-top part exists on disk
+PASS inspection found at least one profile feature
+PASS inspection active document path matches requested save path

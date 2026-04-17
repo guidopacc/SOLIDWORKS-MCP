@@ -1,0 +1,318 @@
+﻿{
+    "schemaVersion":  "evidence-bundle-2026-04-10-v2",
+    "generatedAt":  "2026-04-10T10:44:59",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "validationRoot":  "C:\\SolidWorksMcpValidation",
+    "bundleRoot":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459",
+    "includeCadFiles":  false,
+    "scenariosRequested":  [
+                               "plane-top",
+                               "plane-right",
+                               "line2d",
+                               "rect2d",
+                               "rect3d",
+                               "slice4"
+                           ],
+    "scenarios":  [
+                      {
+                          "scenario":  "plane-top",
+                          "copied":  true,
+                          "includeCadFiles":  false,
+                          "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-top",
+                          "copiedFileCount":  4,
+                          "copiedFiles":  [
+                                              {
+                                                  "name":  "plane-top-summary.txt",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-summary.txt",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-top\\plane-top-summary.txt",
+                                                  "sizeBytes":  3956,
+                                                  "extension":  ".txt"
+                                              },
+                                              {
+                                                  "name":  "plane-top-inspection.json",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-inspection.json",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-top\\plane-top-inspection.json",
+                                                  "sizeBytes":  8058,
+                                                  "extension":  ".json"
+                                              },
+                                              {
+                                                  "name":  "plane-top-sequence.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-sequence.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-top\\plane-top-sequence.ndjson",
+                                                  "sizeBytes":  3362,
+                                                  "extension":  ".ndjson"
+                                              },
+                                              {
+                                                  "name":  "plane-top-sequence.out.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-top\\plane-top-sequence.out.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-top\\plane-top-sequence.out.ndjson",
+                                                  "sizeBytes":  9839,
+                                                  "extension":  ".ndjson"
+                                              }
+                                          ],
+                          "inspectionSummary":  null
+                      },
+                      {
+                          "scenario":  "plane-right",
+                          "copied":  true,
+                          "includeCadFiles":  false,
+                          "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-right",
+                          "copiedFileCount":  4,
+                          "copiedFiles":  [
+                                              {
+                                                  "name":  "plane-right-summary.txt",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-right\\plane-right-summary.txt",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-right\\plane-right-summary.txt",
+                                                  "sizeBytes":  4030,
+                                                  "extension":  ".txt"
+                                              },
+                                              {
+                                                  "name":  "plane-right-inspection.json",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-right\\plane-right-inspection.json",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-right\\plane-right-inspection.json",
+                                                  "sizeBytes":  8128,
+                                                  "extension":  ".json"
+                                              },
+                                              {
+                                                  "name":  "plane-right-sequence.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-right\\plane-right-sequence.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-right\\plane-right-sequence.ndjson",
+                                                  "sizeBytes":  3384,
+                                                  "extension":  ".ndjson"
+                                              },
+                                              {
+                                                  "name":  "plane-right-sequence.out.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\plane-right\\plane-right-sequence.out.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\plane-right\\plane-right-sequence.out.ndjson",
+                                                  "sizeBytes":  9883,
+                                                  "extension":  ".ndjson"
+                                              }
+                                          ],
+                          "inspectionSummary":  null
+                      },
+                      {
+                          "scenario":  "line2d",
+                          "copied":  true,
+                          "includeCadFiles":  false,
+                          "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\line2d",
+                          "copiedFileCount":  4,
+                          "copiedFiles":  [
+                                              {
+                                                  "name":  "line2d-summary.txt",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\line2d\\line2d-summary.txt",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\line2d\\line2d-summary.txt",
+                                                  "sizeBytes":  3957,
+                                                  "extension":  ".txt"
+                                              },
+                                              {
+                                                  "name":  "line2d-inspection.json",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\line2d\\line2d-inspection.json",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\line2d\\line2d-inspection.json",
+                                                  "sizeBytes":  7985,
+                                                  "extension":  ".json"
+                                              },
+                                              {
+                                                  "name":  "line2d-sequence.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\line2d\\line2d-sequence.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\line2d\\line2d-sequence.ndjson",
+                                                  "sizeBytes":  3404,
+                                                  "extension":  ".ndjson"
+                                              },
+                                              {
+                                                  "name":  "line2d-sequence.out.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\line2d\\line2d-sequence.out.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\line2d\\line2d-sequence.out.ndjson",
+                                                  "sizeBytes":  9902,
+                                                  "extension":  ".ndjson"
+                                              }
+                                          ],
+                          "inspectionSummary":  null
+                      },
+                      {
+                          "scenario":  "rect2d",
+                          "copied":  true,
+                          "includeCadFiles":  false,
+                          "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect2d",
+                          "copiedFileCount":  4,
+                          "copiedFiles":  [
+                                              {
+                                                  "name":  "rect2d-summary.txt",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect2d\\rect2d-summary.txt",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect2d\\rect2d-summary.txt",
+                                                  "sizeBytes":  3862,
+                                                  "extension":  ".txt"
+                                              },
+                                              {
+                                                  "name":  "rect2d-inspection.json",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect2d\\rect2d-inspection.json",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect2d\\rect2d-inspection.json",
+                                                  "sizeBytes":  7787,
+                                                  "extension":  ".json"
+                                              },
+                                              {
+                                                  "name":  "rect2d-sequence.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect2d\\rect2d-sequence.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect2d\\rect2d-sequence.ndjson",
+                                                  "sizeBytes":  3471,
+                                                  "extension":  ".ndjson"
+                                              },
+                                              {
+                                                  "name":  "rect2d-sequence.out.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect2d\\rect2d-sequence.out.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect2d\\rect2d-sequence.out.ndjson",
+                                                  "sizeBytes":  9983,
+                                                  "extension":  ".ndjson"
+                                              }
+                                          ],
+                          "inspectionSummary":  null
+                      },
+                      {
+                          "scenario":  "rect3d",
+                          "copied":  true,
+                          "includeCadFiles":  false,
+                          "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect3d",
+                          "copiedFileCount":  4,
+                          "copiedFiles":  [
+                                              {
+                                                  "name":  "rect3d-summary.txt",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-summary.txt",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect3d\\rect3d-summary.txt",
+                                                  "sizeBytes":  3992,
+                                                  "extension":  ".txt"
+                                              },
+                                              {
+                                                  "name":  "rect3d-inspection.json",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-inspection.json",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect3d\\rect3d-inspection.json",
+                                                  "sizeBytes":  8036,
+                                                  "extension":  ".json"
+                                              },
+                                              {
+                                                  "name":  "rect3d-sequence.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-sequence.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect3d\\rect3d-sequence.ndjson",
+                                                  "sizeBytes":  4258,
+                                                  "extension":  ".ndjson"
+                                              },
+                                              {
+                                                  "name":  "rect3d-sequence.out.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-sequence.out.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\rect3d\\rect3d-sequence.out.ndjson",
+                                                  "sizeBytes":  11733,
+                                                  "extension":  ".ndjson"
+                                              }
+                                          ],
+                          "inspectionSummary":  null
+                      },
+                      {
+                          "scenario":  "slice4",
+                          "copied":  true,
+                          "includeCadFiles":  false,
+                          "destination":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\slice4",
+                          "copiedFileCount":  4,
+                          "copiedFiles":  [
+                                              {
+                                                  "name":  "slice4-summary.txt",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\slice4\\slice4-summary.txt",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\slice4\\slice4-summary.txt",
+                                                  "sizeBytes":  4191,
+                                                  "extension":  ".txt"
+                                              },
+                                              {
+                                                  "name":  "slice4-inspection.json",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\slice4\\slice4-inspection.json",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\slice4\\slice4-inspection.json",
+                                                  "sizeBytes":  8409,
+                                                  "extension":  ".json"
+                                              },
+                                              {
+                                                  "name":  "slice4-sequence.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\slice4\\slice4-sequence.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\slice4\\slice4-sequence.ndjson",
+                                                  "sizeBytes":  4983,
+                                                  "extension":  ".ndjson"
+                                              },
+                                              {
+                                                  "name":  "slice4-sequence.out.ndjson",
+                                                  "sourcePath":  "C:\\SolidWorksMcpValidation\\slice4\\slice4-sequence.out.ndjson",
+                                                  "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\slice4\\slice4-sequence.out.ndjson",
+                                                  "sizeBytes":  13593,
+                                                  "extension":  ".ndjson"
+                                              }
+                                          ],
+                          "inspectionSummary":  null
+                      }
+                  ],
+    "extraFiles":  [
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-preflight.json",
+                                        "sourcePath":  "C:\\SolidWorksMcpValidation\\preflight\\worker-preflight.json",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-preflight.json",
+                                        "sizeBytes":  5069,
+                                        "extension":  ".json"
+                                    }
+                       },
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-build.json",
+                                        "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\build\\Debug\\worker-build.json",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-build.json",
+                                        "sizeBytes":  584,
+                                        "extension":  ".json"
+                                    }
+                       },
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-publish.json",
+                                        "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\worker-publish.json",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-publish.json",
+                                        "sizeBytes":  659,
+                                        "extension":  ".json"
+                                    }
+                       },
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-smoke.ndjson",
+                                        "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104005\\worker-smoke.ndjson",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-smoke.ndjson",
+                                        "sizeBytes":  238,
+                                        "extension":  ".ndjson"
+                                    }
+                       },
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-smoke.out.ndjson",
+                                        "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104005\\worker-smoke.out.ndjson",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-smoke.out.ndjson",
+                                        "sizeBytes":  829,
+                                        "extension":  ".ndjson"
+                                    }
+                       },
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-regression.stdout.txt",
+                                        "sourcePath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104005\\worker-regression.stdout.txt",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-regression.stdout.txt",
+                                        "sizeBytes":  3895,
+                                        "extension":  ".txt"
+                                    }
+                       },
+                       {
+                           "copied":  true,
+                           "file":  {
+                                        "name":  "worker-regression-20260410-104012.json",
+                                        "sourcePath":  "C:\\SolidWorksMcpValidation\\regression-runs\\worker-regression-20260410-104012.json",
+                                        "destinationPath":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459\\extras\\worker-regression-20260410-104012.json",
+                                        "sizeBytes":  6230,
+                                        "extension":  ".json"
+                                    }
+                       }
+                   ]
+}

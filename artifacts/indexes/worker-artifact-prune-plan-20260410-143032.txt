@@ -1,0 +1,13 @@
+﻿applyRequested: False
+safeMode: True
+keepRecentCycles: 5
+keepRecentEvidenceBundles: 5
+keepRecentHandoffPacks: 5
+keepLatestFailedCycles: 2
+keepLatestFailedEvidenceBundles: 2
+cycleCandidates: 0
+evidenceBundleCandidates: 2
+handoffPackCandidates: 0
+totalCandidates: 2
+deletedCount: 0
+planPath: C:\Tools\SOLIDWORKS-MCP\artifacts\indexes\worker-artifact-prune-plan-20260410-143032.json

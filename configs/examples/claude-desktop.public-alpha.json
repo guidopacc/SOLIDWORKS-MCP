@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "solidworks-mcp": {
+      "type": "stdio",
+      "command": "node.exe",
+      "args": ["C:\\path\\to\\SOLIDWORKS-MCP\\dist\\mcp-server\\src\\index.js"],
+      "env": {
+        "SOLIDWORKS_MCP_BACKEND": "solidworks-worker",
+        "SOLIDWORKS_WORKER_COMMAND": "C:\\path\\to\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+        "SOLIDWORKS_WORKER_RESPONSE_TIMEOUT_MS": "120000",
+        "SOLIDWORKS_WORKER_SHUTDOWN_TIMEOUT_MS": "15000"
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+﻿{"messageType":"handshake_request","requestId":"handshake-1","protocolVersion":"0.1.0","client":{"name":"windows-worker-cycle","version":"0.1.0"}}
+{"messageType":"shutdown_request","requestId":"shutdown-1","protocolVersion":"0.1.0"}

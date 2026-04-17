@@ -1,0 +1,41 @@
+{
+  "name": "solidworks-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mock-first MCP server architecture for SolidWorks automation with a future Windows SolidWorks backend.",
+  "type": "module",
+  "bin": {
+    "solidworks-mcp": "./dist/mcp-server/src/index.js"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx mcp-server/src/index.ts",
+    "start": "node dist/mcp-server/src/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome check .",
+    "format": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "audit": "npm audit --audit-level=high",
+    "verify": "node scripts/verify-project.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.11",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "5.8.2",
+    "vitest": "^4.1.4"
+  },
+  "overrides": {
+    "@hono/node-server": "1.19.14",
+    "hono": "4.12.12",
+    "vite": "8.0.8"
+  }
+}

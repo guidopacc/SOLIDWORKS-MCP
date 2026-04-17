@@ -1,0 +1,238 @@
+﻿{
+  "schemaVersion": "inspection-2026-04-10-v2",
+  "scenario": "rect3d",
+  "workerExe": "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe",
+  "protocolVersion": "0.1.0",
+  "desiredSolidWorksMajorVersion": 2022,
+  "inspectionMode": "reopened_saved_part",
+  "runStartedAtUtc": "2026-04-10T12:08:32.3544468\u002B00:00",
+  "runCompletedAtUtc": "2026-04-10T12:09:24.3259922\u002B00:00",
+  "durationMs": 51971,
+  "inputTranscriptPath": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-sequence.ndjson",
+  "outputTranscriptPath": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-sequence.out.ndjson",
+  "summaryPath": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-summary.txt",
+  "savePath": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-part.SLDPRT",
+  "saveExists": true,
+  "saveSizeBytes": 54066,
+  "exportPath": null,
+  "exportExists": false,
+  "exportSizeBytes": 0,
+  "workerExitCode": 0,
+  "workerStdErr": null,
+  "lastExecuteOk": true,
+  "lastExecuteErrorCode": null,
+  "lastExecuteErrorClassification": null,
+  "lastExecuteErrorStage": null,
+  "currentDocumentTitle": "rect3d-part.SLDPRT",
+  "currentDocumentPath": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-part.SLDPRT",
+  "currentDocumentModified": false,
+  "profileFeatureCount": 1,
+  "profileFeatures": [
+    "Sketch1"
+  ],
+  "extrusionFeatureCount": 1,
+  "extrusionFeatures": [
+    "Boss-Extrude1"
+  ],
+  "sketchSegmentCount": null,
+  "featureTreeCount": 19,
+  "featureTree": [
+    "Favoris:FavoriteFolder",
+    "History:HistoryFolder",
+    "Ensembles de s\u00E9lections:SelectionSetFolder",
+    "Sensors:SensorFolder",
+    "Allegati:DocsFolder",
+    "Annotations:DetailCabinet",
+    "Marquages:InkMarkupFolder",
+    "Lumi\u00E8res, cam\u00E9ras et sc\u00E8ne:EnvFolder",
+    "Corps volumiques:SolidBodyFolder",
+    "Corps surfaciques:SurfaceBodyFolder",
+    "Commentaires:CommentsFolder",
+    "Equations:EqnFolder",
+    "Materiale \u003Cnon specificato\u003E:MaterialFolder",
+    "Front Plane:RefPlane",
+    "Top Plane:RefPlane",
+    "Right Plane:RefPlane",
+    "Origin:OriginProfileFeature",
+    "Sketch1:ProfileFeature",
+    "Boss-Extrude1:Extrusion"
+  ],
+  "assertionPassCount": 5,
+  "assertionFailCount": 0,
+  "scenarioPassed": true,
+  "assertions": [
+    "PASS state.features contains one extrude_boss feature",
+    "PASS draw_centered_rectangle operationDetails.segmentCount \u003E= 4",
+    "PASS saved rect3d part exists on disk",
+    "PASS inspection found at least one extrusion feature",
+    "PASS inspection active document path matches rect3d save path"
+  ],
+  "artifacts": {
+    "inputTranscript": {
+      "path": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-sequence.ndjson",
+      "exists": true,
+      "sizeBytes": 4258,
+      "extension": ".ndjson",
+      "lineCount": 9
+    },
+    "outputTranscript": {
+      "path": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-sequence.out.ndjson",
+      "exists": true,
+      "sizeBytes": 11736,
+      "extension": ".ndjson",
+      "lineCount": 9
+    },
+    "summary": {
+      "path": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-summary.txt",
+      "exists": true,
+      "sizeBytes": 3992,
+      "extension": ".txt",
+      "lineCount": null
+    },
+    "inspection": {
+      "path": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-inspection.json",
+      "exists": true,
+      "sizeBytes": 8036,
+      "extension": ".json",
+      "lineCount": null
+    },
+    "saveDocument": {
+      "path": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-part.SLDPRT",
+      "exists": true,
+      "sizeBytes": 54066,
+      "extension": ".SLDPRT",
+      "lineCount": null
+    },
+    "exportFile": {
+      "path": null,
+      "exists": false,
+      "sizeBytes": 0,
+      "extension": null,
+      "lineCount": null
+    }
+  },
+  "outcome": {
+    "workerExitCode": 0,
+    "workerStdErr": null,
+    "lastExecuteOk": true,
+    "lastExecuteErrorCode": null,
+    "lastExecuteErrorClassification": null,
+    "lastExecuteErrorStage": null,
+    "lastExecuteErrorMessage": null,
+    "requestedCommandCount": 7,
+    "completedCommandCount": 7,
+    "completedCommandKinds": [
+      "new_part",
+      "select_plane",
+      "start_sketch",
+      "draw_centered_rectangle",
+      "close_sketch",
+      "extrude_boss",
+      "save_part"
+    ],
+    "scenarioPassed": true
+  },
+  "reopenedDocument": {
+    "title": "rect3d-part.SLDPRT",
+    "path": "C:\\SolidWorksMcpValidation\\rect3d\\rect3d-part.SLDPRT",
+    "modified": false
+  },
+  "featureReadback": {
+    "profileFeatureCount": 1,
+    "profileFeatures": [
+      "Sketch1"
+    ],
+    "extrusionFeatureCount": 1,
+    "extrusionFeatures": [
+      "Boss-Extrude1"
+    ],
+    "sketchSegmentCount": null,
+    "featureTreeCount": 19,
+    "featureTypeCounts": {
+      "CommentsFolder": 1,
+      "DetailCabinet": 1,
+      "DocsFolder": 1,
+      "EnvFolder": 1,
+      "EqnFolder": 1,
+      "Extrusion": 1,
+      "FavoriteFolder": 1,
+      "HistoryFolder": 1,
+      "InkMarkupFolder": 1,
+      "MaterialFolder": 1,
+      "OriginProfileFeature": 1,
+      "ProfileFeature": 1,
+      "RefPlane": 3,
+      "SelectionSetFolder": 1,
+      "SensorFolder": 1,
+      "SolidBodyFolder": 1,
+      "SurfaceBodyFolder": 1
+    },
+    "referencePlanes": [
+      "Front Plane",
+      "Top Plane",
+      "Right Plane"
+    ],
+    "featureTree": [
+      "Favoris:FavoriteFolder",
+      "History:HistoryFolder",
+      "Ensembles de s\u00E9lections:SelectionSetFolder",
+      "Sensors:SensorFolder",
+      "Allegati:DocsFolder",
+      "Annotations:DetailCabinet",
+      "Marquages:InkMarkupFolder",
+      "Lumi\u00E8res, cam\u00E9ras et sc\u00E8ne:EnvFolder",
+      "Corps volumiques:SolidBodyFolder",
+      "Corps surfaciques:SurfaceBodyFolder",
+      "Commentaires:CommentsFolder",
+      "Equations:EqnFolder",
+      "Materiale \u003Cnon specificato\u003E:MaterialFolder",
+      "Front Plane:RefPlane",
+      "Top Plane:RefPlane",
+      "Right Plane:RefPlane",
+      "Origin:OriginProfileFeature",
+      "Sketch1:ProfileFeature",
+      "Boss-Extrude1:Extrusion"
+    ]
+  },
+  "assertionSummary": {
+    "passCount": 5,
+    "failCount": 0,
+    "otherCount": 0,
+    "passed": [
+      "PASS state.features contains one extrude_boss feature",
+      "PASS draw_centered_rectangle operationDetails.segmentCount \u003E= 4",
+      "PASS saved rect3d part exists on disk",
+      "PASS inspection found at least one extrusion feature",
+      "PASS inspection active document path matches rect3d save path"
+    ],
+    "failed": [],
+    "other": []
+  },
+  "evidence": {
+    "strong": [
+      "all scenario assertions passed",
+      "saved part exists on disk: C:\\SolidWorksMcpValidation\\rect3d\\rect3d-part.SLDPRT",
+      "feature-tree readback found profile feature(s): Sketch1",
+      "feature-tree readback found extrusion feature(s): Boss-Extrude1",
+      "reopened active document path matches the saved part path"
+    ],
+    "supporting": [
+      "worker exited with code 0",
+      "feature tree captured with 19 entries",
+      "reference planes present in feature tree: Front Plane, Top Plane, Right Plane",
+      "feature type summary available: CommentsFolder=1 | DetailCabinet=1 | DocsFolder=1 | EnvFolder=1 | EqnFolder=1 | Extrusion=1 | FavoriteFolder=1 | HistoryFolder=1 | InkMarkupFolder=1 | MaterialFolder=1 | OriginProfileFeature=1 | ProfileFeature=1 | RefPlane=3 | SelectionSetFolder=1 | SensorFolder=1 | SolidBodyFolder=1 | SurfaceBodyFolder=1"
+    ],
+    "weak": [],
+    "cautions": [
+      "sketch segment count unavailable; saved/exported files and feature-tree readback remain stronger evidence"
+    ]
+  },
+  "cleanup": {
+    "attempted": true,
+    "closedScenarioDocument": false,
+    "closedDocumentTitle": null,
+    "exitedApplication": true,
+    "remainingActiveDocumentTitle": null,
+    "remainingActiveDocumentPath": null
+  }
+}

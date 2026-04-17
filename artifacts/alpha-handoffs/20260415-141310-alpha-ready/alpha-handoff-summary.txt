@@ -1,0 +1,32 @@
+﻿intent: repo-first technical alpha handoff companion
+repoRequired: True
+publicAlphaSupported: True
+repoFirstDistributable: True
+secondMachineValidated: True
+handoffReady: True
+installerGrade: False
+publicAlphaToolCount: 13
+copiedCoreFileCount: 14
+copiedConfigFileCount: 5
+publishedWorkerIncluded: True
+publishedWorkerSourcePath: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\publish\framework-dependent\win-x64\Release\SolidWorksWorker.exe
+evidencePackIncluded: False
+evidencePackSourcePath: 
+alphaHandoffPath: C:\Tools\SOLIDWORKS-MCP\artifacts\alpha-handoffs\20260415-141310-alpha-ready
+alphaHandoffManifest: C:\Tools\SOLIDWORKS-MCP\artifacts\alpha-handoffs\20260415-141310-alpha-ready\alpha-handoff-manifest.json
+
+recommendedReadOrder:
+1. README.md
+2. PROJECT_HANDOFF.md
+3. docs\\architecture\\ALPHA_DELIVERY_MODEL.md
+4. docs\\architecture\\FIRST_ALPHA_HANDOFF_GUIDE.md
+5. docs\\getting-started\\QUICKSTART_ALPHA.md
+6. docs\\architecture\\MCP_CLIENT_SETUP.md
+7. docs\\architecture\\PUBLIC_ALPHA_BOUNDARY.md
+
+notIncludedByDesign:
+- repository source replacement
+- node_modules
+- full artifact history
+- installer wrappers
+- desktop extension packaging

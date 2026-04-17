@@ -1,0 +1,64 @@
+﻿schemaVersion=inspection-2026-04-10-v2
+scenario=slice4
+workerExe=C:\Tools\SOLIDWORKS-MCP\artifacts\worker\publish\framework-dependent\win-x64\Release\SolidWorksWorker.exe
+protocolVersion=0.1.0
+desiredSolidWorksMajorVersion=2022
+inspectionMode=reopened_saved_part
+runStartedAtUtc=2026-04-10T08:50:11.1762111+00:00
+runCompletedAtUtc=2026-04-10T08:50:59.4611618+00:00
+durationMs=48284
+initialAppMode=no_running_app
+initialProcessCount=1
+preExistingSessionSource=process_running_without_rot_before_harness
+initialActiveDocumentTitle=<null>
+initialActiveDocumentPath=<null>
+workerExitCode=0
+workerStdErr=<empty>
+lastExecuteOk=true
+lastExecuteErrorCode=<null>
+lastExecuteErrorClassification=<null>
+lastExecuteErrorStage=<null>
+lastExecuteErrorMessage=<null>
+inspectionArtifactPath=C:\SolidWorksMcpValidation\slice4\slice4-inspection.json
+inputTranscriptPath=C:\SolidWorksMcpValidation\slice4\slice4-sequence.ndjson
+inputTranscriptLineCount=10
+outputTranscriptPath=C:\SolidWorksMcpValidation\slice4\slice4-sequence.out.ndjson
+outputTranscriptLineCount=10
+activeDocumentTitle=slice4-part.SLDPRT
+activeDocumentPath=C:\SolidWorksMcpValidation\slice4\slice4-part.SLDPRT
+activeDocumentModified=False
+profileFeatureCount=1
+profileFeatures=Sketch1
+extrusionFeatureCount=1
+extrusionFeatures=Boss-Extrude1
+sketchSegmentCount=<null>
+featureTreeCount=19
+featureTypeCounts=CommentsFolder=1 | DetailCabinet=1 | DocsFolder=1 | EnvFolder=1 | EqnFolder=1 | Extrusion=1 | FavoriteFolder=1 | HistoryFolder=1 | InkMarkupFolder=1 | MaterialFolder=1 | OriginProfileFeature=1 | ProfileFeature=1 | RefPlane=3 | SelectionSetFolder=1 | SensorFolder=1 | SolidBodyFolder=1 | SurfaceBodyFolder=1
+referencePlanes=Front Plane | Top Plane | Right Plane
+savePath=C:\SolidWorksMcpValidation\slice4\slice4-part.SLDPRT
+saveExists=True
+saveSizeBytes=66144
+exportPath=C:\SolidWorksMcpValidation\slice4\slice4-export.step
+exportExists=True
+exportSizeBytes=11922
+cleanupAttempted=True
+cleanupClosedScenarioDocument=False
+cleanupClosedDocumentTitle=<null>
+cleanupExitedApplication=True
+cleanupRemainingActiveDocumentTitle=<null>
+cleanupRemainingActiveDocumentPath=<null>
+assertionPassCount=7
+assertionFailCount=0
+scenarioPassed=True
+strongEvidence=all scenario assertions passed | saved part exists on disk: C:\SolidWorksMcpValidation\slice4\slice4-part.SLDPRT | STEP export exists on disk: C:\SolidWorksMcpValidation\slice4\slice4-export.step | feature-tree readback found profile feature(s): Sketch1 | feature-tree readback found extrusion feature(s): Boss-Extrude1 | reopened active document path matches the saved part path
+supportingEvidence=worker exited with code 0 | feature tree captured with 19 entries | reference planes present in feature tree: Front Plane, Top Plane, Right Plane | feature type summary available: CommentsFolder=1 | DetailCabinet=1 | DocsFolder=1 | EnvFolder=1 | EqnFolder=1 | Extrusion=1 | FavoriteFolder=1 | HistoryFolder=1 | InkMarkupFolder=1 | MaterialFolder=1 | OriginProfileFeature=1 | ProfileFeature=1 | RefPlane=3 | SelectionSetFolder=1 | SensorFolder=1 | SolidBodyFolder=1 | SurfaceBodyFolder=1
+weakEvidence=
+evidenceCautions=sketch segment count unavailable; saved/exported files and feature-tree readback remain stronger evidence
+featureTree=Favoris:FavoriteFolder | History:HistoryFolder | Ensembles de sélections:SelectionSetFolder | Sensors:SensorFolder | Allegati:DocsFolder | Annotations:DetailCabinet | Marquages:InkMarkupFolder | Lumières, caméras et scène:EnvFolder | Corps volumiques:SolidBodyFolder | Corps surfaciques:SurfaceBodyFolder | Commentaires:CommentsFolder | Equations:EqnFolder | Materiale <non specificato>:MaterialFolder | Front Plane:RefPlane | Top Plane:RefPlane | Right Plane:RefPlane | Origin:OriginProfileFeature | Sketch1:ProfileFeature | Boss-Extrude1:Extrusion
+PASS state.features contains one extrude_boss feature
+PASS state.exports contains the exported STEP artifact
+PASS export response includes exportMode
+PASS saved slice4 part exists on disk
+PASS STEP export exists on disk
+PASS inspection found at least one extrusion feature
+PASS inspection active document path matches saved part path

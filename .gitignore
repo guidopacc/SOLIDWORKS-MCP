@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+**/.DS_Store
+.recovery-backups/
+*.log
+
+# .NET build output
+**/bin/
+**/obj/
+*.user
+*.suo
+
+

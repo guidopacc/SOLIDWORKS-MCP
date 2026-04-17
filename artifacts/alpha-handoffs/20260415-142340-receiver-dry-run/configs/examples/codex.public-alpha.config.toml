@@ -1,0 +1,18 @@
+# Example Codex MCP configuration for the current SOLIDWORKS-MCP developer alpha.
+# Replace C:\path\to\SOLIDWORKS-MCP with your real checkout path.
+# This example keeps the executable paths repo-relative once `cwd` is set.
+
+[mcp_servers.solidworksMcp]
+enabled = true
+required = true
+command = "node"
+args = ["dist/mcp-server/src/index.js"]
+cwd = "C:\\path\\to\\SOLIDWORKS-MCP"
+startup_timeout_sec = 15.0
+tool_timeout_sec = 120.0
+
+[mcp_servers.solidworksMcp.env]
+SOLIDWORKS_MCP_BACKEND = "solidworks-worker"
+SOLIDWORKS_WORKER_COMMAND = ".\\artifacts\\worker\\publish\\framework-dependent\\win-x64\\Release\\SolidWorksWorker.exe"
+SOLIDWORKS_WORKER_RESPONSE_TIMEOUT_MS = "120000"
+SOLIDWORKS_WORKER_SHUTDOWN_TIMEOUT_MS = "15000"

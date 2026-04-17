@@ -1,0 +1,122 @@
+﻿{
+    "schemaVersion":  "worker-artifact-prune-plan-2026-04-10-v1",
+    "generatedAt":  "2026-04-10T14:30:33",
+    "projectRoot":  "C:\\Tools\\SOLIDWORKS-MCP",
+    "applyRequested":  false,
+    "safeMode":  true,
+    "roots":  {
+                  "cyclesRoot":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles",
+                  "evidenceRoot":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence",
+                  "handoffRoot":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs"
+              },
+    "policy":  {
+                   "keepRecentCycles":  5,
+                   "keepRecentEvidenceBundles":  5,
+                   "keepRecentHandoffPacks":  5,
+                   "keepLatestFailedCycles":  2,
+                   "keepLatestFailedEvidenceBundles":  2,
+                   "defaultMode":  "dry_run",
+                   "explicitNonGoals":  [
+                                            "do_not_prune_validation_root_raw_scenarios",
+                                            "do_not_prune_regression_run_manifests",
+                                            "do_not_prune_build_publish_manifests"
+                                        ]
+               },
+    "protected":  {
+                      "cycles":  [
+                                     {
+                                         "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104005",
+                                         "reasons":  [
+                                                         "keep_recent_cycle",
+                                                         "keep_latest_failed_cycle"
+                                                     ]
+                                     },
+                                     {
+                                         "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-104556",
+                                         "reasons":  [
+                                                         "keep_recent_cycle",
+                                                         "latest_standard_cycle",
+                                                         "keep_latest_failed_cycle"
+                                                     ]
+                                     },
+                                     {
+                                         "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\worker\\cycles\\20260410-140501",
+                                         "reasons":  [
+                                                         "keep_recent_cycle",
+                                                         "latest_passing_cycle",
+                                                         "latest_full_cycle"
+                                                     ]
+                                     }
+                                 ],
+                      "evidenceBundles":  [
+                                              {
+                                                  "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-104459",
+                                                  "reasons":  [
+                                                                  "keep_recent_bundle"
+                                                              ]
+                                              },
+                                              {
+                                                  "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-105059",
+                                                  "reasons":  [
+                                                                  "keep_recent_bundle"
+                                                              ]
+                                              },
+                                              {
+                                                  "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-140440",
+                                                  "reasons":  [
+                                                                  "keep_recent_bundle",
+                                                                  "latest_standard_bundle"
+                                                              ]
+                                              },
+                                              {
+                                                  "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-140441",
+                                                  "reasons":  [
+                                                                  "keep_recent_bundle"
+                                                              ]
+                                              },
+                                              {
+                                                  "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-141018",
+                                                  "reasons":  [
+                                                                  "keep_recent_bundle",
+                                                                  "latest_passing_bundle",
+                                                                  "latest_full_bundle"
+                                                              ]
+                                              }
+                                          ],
+                      "handoffPacks":  [
+                                           {
+                                               "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\handoff-packs\\20260410-142912",
+                                               "reasons":  [
+                                                               "keep_recent_handoff_pack"
+                                                           ]
+                                           }
+                                       ]
+                  },
+    "candidates":  [
+                       {
+                           "category":  "evidence_bundle",
+                           "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-101411",
+                           "name":  "20260410-101411",
+                           "reasons":  [
+
+                                       ],
+                           "status":  "planned"
+                       },
+                       {
+                           "category":  "evidence_bundle",
+                           "path":  "C:\\Tools\\SOLIDWORKS-MCP\\artifacts\\real-evidence\\20260410-095915",
+                           "name":  "20260410-095915",
+                           "reasons":  [
+
+                                       ],
+                           "status":  "planned"
+                       }
+                   ],
+    "summary":  {
+                    "cycleCandidates":  0,
+                    "evidenceBundleCandidates":  2,
+                    "handoffPackCandidates":  0,
+                    "totalCandidates":  2,
+                    "deletedCount":  0
+                }
+}

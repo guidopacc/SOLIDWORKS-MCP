@@ -1,0 +1,12 @@
+﻿sourceEvidenceBundlePath: C:\Tools\SOLIDWORKS-MCP\artifacts\real-evidence\20260410-141018
+sourceBundleMode: full_with_cad_files
+includeCadFiles: True
+sourceCycleManifestPath: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\cycles\20260410-140501\windows-worker-cycle.json
+sourceRegressionManifestPath: C:\SolidWorksMcpValidation\regression-runs\worker-regression-20260410-140512.json
+scenarioCount: 6
+copiedScenarioCount: 6
+copiedCycleFileCount: 3
+copiedEvidenceFileCount: 2
+copiedExtraFileCount: 7
+handoffPackPath: C:\Tools\SOLIDWORKS-MCP\artifacts\handoff-packs\20260410-143035-latest-full
+handoffManifestPath: C:\Tools\SOLIDWORKS-MCP\artifacts\handoff-packs\20260410-143035-latest-full\handoff-manifest.json

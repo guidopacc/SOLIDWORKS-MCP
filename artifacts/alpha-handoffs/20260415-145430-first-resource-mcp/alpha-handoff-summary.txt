@@ -1,0 +1,45 @@
+﻿intent: repo-first technical alpha handoff companion
+repoRequired: True
+repoRole: working root for scripts, builds, and server entrypoint
+companionPackageRole: orientation, curated docs, config discovery, and optional included worker handoff
+publicAlphaSupported: True
+repoFirstDistributable: True
+secondMachineValidated: True
+handoffReady: True
+receiverValidated: True
+installerGrade: False
+publicAlphaToolCount: 13
+publicAlphaPromptCount: 1
+publicAlphaResourceCount: 1
+copiedCoreFileCount: 16
+copiedConfigFileCount: 5
+publishedWorkerIncluded: True
+publishedWorkerSourcePath: C:\Tools\SOLIDWORKS-MCP\artifacts\worker\publish\framework-dependent\win-x64\Release\SolidWorksWorker.exe
+includedWorkerShortcut: optional: point SOLIDWORKS_WORKER_COMMAND to <package-root>\\worker\\SolidWorksWorker.exe while keeping the repo checkout as working root
+evidencePackIncluded: False
+evidencePackSourcePath: 
+alphaHandoffPath: C:\Tools\SOLIDWORKS-MCP\artifacts\alpha-handoffs\20260415-145430-first-resource-mcp
+alphaHandoffManifest: C:\Tools\SOLIDWORKS-MCP\artifacts\alpha-handoffs\20260415-145430-first-resource-mcp\alpha-handoff-manifest.json
+
+recommendedReadOrder:
+1. README.md
+2. PROJECT_HANDOFF.md
+3. docs\\architecture\\ALPHA_DELIVERY_MODEL.md
+4. docs\\architecture\\FIRST_ALPHA_HANDOFF_GUIDE.md
+5. docs\\getting-started\\QUICKSTART_ALPHA.md
+6. docs\\architecture\\MCP_CLIENT_SETUP.md
+7. docs\\architecture\\PUBLIC_ALPHA_BOUNDARY.md
+8. docs\\architecture\\FIRST_PROMPT_MCP.md
+9. docs\\architecture\\FIRST_RESOURCE_MCP.md
+
+receiverNotes:
+- use the companion package for orientation and handoff context
+- use the accompanying repository checkout as the working root for scripts and builds
+- if a referenced doc is not duplicated in the package, open it from the repo checkout
+
+notIncludedByDesign:
+- repository source replacement
+- node_modules
+- full artifact history
+- installer wrappers
+- desktop extension packaging
